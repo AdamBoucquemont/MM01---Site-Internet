@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<!--Titre de la page-->
+	<title> Les Snowkids </title>
+	<!--Instauration du favicon-->
+	<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+	<!--Mise en place des 4 balises Meta-->
+	<meta charset="utf-8">
+	<meta name="author" content="Adam BOUCQUEMONT" />
+	<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+	<meta name="description" content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+	  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+	<!--Accés à la feuille de style-->
+	<link rel="stylesheet" href="../style/style.css">
+	<!--Lien donnant accées au différens effet du site-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<!--en tête du document-->
+	<header>
+		<div class="header"></div>
+		<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+
+	<!--corps du document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--titre et explication-->
+				<h1> Les snowkids </h1>
+				<br>
+				<p> Les Snow Kids sont les personnages centraux de Galactik Football. Ils sont une équipe créée par
+					Aarch sur la planète Akillian. Leur fluide est le souffle d'Akillian.
+					Ils sont la première équipe à remporter trois titres consécutifs de la Galactik Football Cup.
+					Aarch et Clamp rénovent l'ancien stade Akillian congelés et maintenus camp d'essai pour tous ceux
+					qui souhaitent jouer pour l'équipe. </p>
+
+				<!--présentation des 15 membres de l'équipe les plus importants-->
+				<div class="container_personnages">
+
+					<h2> D'jok </h2>
+					<!--pour chaque membre il y a une photo et une description-->
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> D'Jok est l'un des principaux protagonistes de Galactik Football. Il est l’attaquant et
+								le joueur vedette des Snow Kids. C’est lui qui a accepté la première coupe
+								de football Galactik pour l’ensemble de l’équipe. Il est la deuxième personne à utiliser
+								le Souffle. Il est temporairement capitaine de l'équipe lors de la saison 2. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/D'Jok.jpg" alt="Le principale, protagoniste" width="100%">
+						</div>
+					</div>
+					<br>
+
+					<h2> Rocket </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p>Rocket est l'un des principaux protagonistes de Galactik Football. Il était un milieu de
+								terrain et le capitaine d'origine des Snow Kids. Il est devenu plus tard le
+								nouvel entraîneur des Snow Kids après la démission de son oncle Aarch en raison d'un
+								scandale entre lui et le président de la Ligue, Adium. Est le personnage principal de la
+								série et il est le joueur le plus fort de l'équipe et pour cette raison, D'Jok a
+								toujours été très jaloux de lui, il est également l'intérêt d'amour de Tia. Dnas la
+								saison 3,
+								il devient le coach de l'équipe. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Rocket.jpg" alt="Le capitaine et coach" width="100%">
+						</div>
+					</div>
+					<br>
+
+					<h2> Aarch </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Aarch est l'un des personnages principaux de Galactik Football. Il a été l'un des
+								joueurs stars de l'équipe d'Akillian avant la Grande Glaciation avant de porter le
+								maillot des
+								Shadows. Devenu entraîneur jusqu'a la saison 2, il a fondé l'équipe des Snow Kids.
+								Il est le frère de Norata et l'oncle de Rocket. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Aarch.jpg" alt="Le fondateur Aarch" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Tia </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Tia est l'un des principaux protagonistes de Galactik Football. Elle joue au milieu de
+								terrain offensif pour les Snow Kids et est la première personne à avoir développé
+								le Souffle d'Akillian en plus de 15 ans. Elle est l'intérêt amoureux de Rocket. Tia
+								devient plus tard le troisième capitaine des Snow Kids. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Tia.jpg" alt="Tia" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Ahito </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Ahito est l'un des principaux protagonistes de Galactik Football. Il est gardien de but
+								pour les Snow Kids et frère jumeau de Thran. Il est narcoleptique et à la
+								deuxième saison, il est frappé par une deuxième maladie mystérieuse. Il est à l'origine
+								du nom de l'équipe "Snow Kids". </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Ahito.jpg" alt="Ahito" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Micro-Ice </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Micro-Ice est l'un des principaux protagonistes de Galactik Football et membre des Snow
+								Kids. Il est l’un des principaux attaquants et est reconnu pour son incroyable talent
+								pour le dribble et sa créativité. Micro-Ice est le meilleur ami et frère de D'Jok. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Micro_Ice.jpg" alt="Micro-Ice" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Clamp </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Clamp est un des membres du staff technique qui entoure les Snow Kids. Il a conçu toutes
+								leurs machines d'entrainement. Il est aussi l'un des créateurs du Méta Fluide.
+								Il aime jouer aux cartes avec Thran et concevoir toutes sortes de machines et gadget.
+								Son véritable nom est Yarrit Lobnor. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Clamp(1).jpg" alt="Clamp" width="100%">
+						</div>
+					</div>
+
+
+					<br>
+					<h2> Yuki </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> yuki est la cousine de ahito et thran elle a été former chez les snow kids et elle est
+								partie chez les elektras. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/yuki.jpg" alt="Yuki" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Lun-Zia </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Lun-Zia est la défenseur remplaçante de Mei pendant le Tournoi Paradisia et l'une des
+								milieu de terrain des Wambas. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Lun-Zia.jpg" alt="Lun-Zia" width="100%">
+						</div>
+					</div>
+
+
+					<br>
+					<h2> Thran </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Thran est l'un des principaux protagonistes de Galactik Football. Il est un défenseur
+								des Snow Kids et un frère jumeau d’Ahito. Il est la troisième personne à acquérir le
+								Souffle et le
+								seul, à part Rocket, à l'utiliser pour se protéger des autres capacités de flux. Il a
+								également une amitié extrêmement étroite avec Clamp. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Thran.jpg" alt="Thran" width="100%">
+						</div>
+					</div>
+
+
+					<br>
+					<h2> Mark </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Mark est l'un des principaux protagonistes. Il est un attaquant et milieu de terrain
+								pour les Snow Kids, remplaçant Rocket lors de sa suspension. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Mark.jpg" alt="Mark" width="100%">
+						</div>
+					</div>
+
+
+					<br>
+					<h2> Mei </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Mei est l'un des protagonistes principaux de Galactik Football et, comme beaucoup de ses
+								amis, elle est originaire d'Akillian. Elle est une joueuse des Snow Kids,
+								défenseur aux côtés de Thran, et autrefois membre des Shadows où elle a joué comme
+								attaquant Mei est aussi l’intérêt amoureux de D'Jok. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Mei.jpg" alt="Mei" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Dame Simbaï </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Dame Simbaï est une amie de longue date d'Aarch. Elle qui l'a guéri sur la planète des
+								Wambas quand le smog commençait à le rendre malade. Elle s'occupe de la santé des
+								jeunes joueurs de l'équipe. Elle travailla aussi en cachette pour le Cercle des Fluides.
+							</p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/dame_simbai.jpg" alt="Dame Simbaï" width="100%">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--footer du document-->
+	<footer>
+		UTT | BOUCQUEMONT Adam | MM01 | A20
+	</footer>
+
+</body>
+
+</html>

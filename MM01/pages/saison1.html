@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+		<!--Titre de la page-->
+		<title> Saison 1 </title>
+		<!--Instauration du favicon-->
+		<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+		<!--Mise en place des 4 balises Meta-->
+		<meta charset="utf-8">
+		<meta name="author" content="Adam BOUCQUEMONT" />
+		<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+		<meta name="description"
+		  content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+		  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+		<!--Accés à la feuille de style-->
+		<link rel="stylesheet" href="../style/style.css">
+		<!--Lien donnant accées au différens effet du site-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!--en tête du document-->
+	<header>
+		<div class="header"></div>
+		<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+<!--corps ud document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--titre et image-->
+				<h1> Saison 1 de Galactik Football </h1>
+
+				<br>
+
+				<img src="../img/saison_1.jpg" alt="Poster de la saison 1" width="40%" >
+				<br>
+				<!--Son du générique-->
+				<h2> Ecouter le générique de la saison 1 </h2>
+				<br>
+				<audio src="../son/Galactik Football Saison 1 Générique FR.mp3" controls></audio>
+
+
+				<br><br>
+
+				<!--alternance de lignes composés de'une image et d'un résumé-->
+				<div class="container_ligne">
+					<div class="container_texte">
+						<p> Lors d'un match de football entre l'équipe locale de la planète Akillian et les Shadows,
+							Aarch, capitaine des Akilliens, prend un coup franc direct, une explosion retentit
+							et une avalanche balaie le stade, marquant le début de l'ère glaciaire akillienne et la
+							perte du Souffle, le fluide d'Akillian. Quinze ans après, Aarch et son ami Clamp, un
+							technicien robotique, reviennent sur Akillian. </p>
+					</div>
+
+					<div class="container_image">
+						<img src="../img/Saison1_image1.png" alt="équipe des Snow Kids" width="100%">
+					</div>
+				</div>
+
+				<br><br>
+
+				<div class="container_ligne">
+					<div class="container_image">
+						<p> Aarch voudrait créer une nouvelle équipe de Galactik Football sur Akillian capable de
+							remporter la Coupe, et sélectionne un
+							groupe d'adolescents talentueux pour son équipe : D'Jok, Sinedd, Micro-Ice, Mei, Thran,
+							Ahito, Rocket et Tia. Cependant, le père de Rocket, qui est aussi le frère d'Aarch,
+							ne le veut pas dans l'équipe, et accepte seulement de le laisser jouer à condition que son
+							équipe, nouvellement nommés les Snow Kids, remporte un match contre l'équipe
+							actuelle d'Akillian, les Tigres Rouges, qui sont entraînés par Artegor Nexus, vieil ami et
+							coéquipier d'Aarch. Pendant son essai, Tia révèle qu'elle a le pouvoir du Souffle
+							d'Akillian depuis longtemps perdu. Les Snow Kids ont battu les Tigres Rouges, devenant ainsi
+							la nouvelle équipe d'Akillian. </p>
+					</div>
+
+					<div class="container_texte">
+						<img src="../img/Saison1_image2.jpg" alt="stade" width="100%">
+					</div>
+				</div>
+
+				<br><br>
+
+				<div class="container_ligne">
+					<div class="container_texte">
+						<p> Cependant, Artegor attire Sinedd loin des Snow
+							Kids et le recrute pour les Shadows, qu'il a accepté d'entraîner. Au fur et à mesure que les
+							Snow Kids progressent dans la compétition, chacun d'entre eux développe le
+							souffle d'Akillian. Cependant, les sept joueurs ont été affectés par le Meta-Flux, un flux
+							synthétique indétectable, créé par inadvertance par Clamp et le pirate Sonny
+							Blackbones, qui était la véritable origine de l'âge glaciaire Akillian. Ce flux est
+							maintenant convoité par l'impitoyable général Bleylock, qui met en danger les Snow Kids
+							pour mettre la main dessus. Avec l'aide de Clamp et de Sonny, les Snow Kids échappent aux
+							machinations du général Bleylock et remportent la Galactik Football Cup. </p>
+					</div>
+
+					<div class="container_image">
+						<img src="../img/Saison1_image3.jpg" alt="victoire" width="100%">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!--footer de la page-->
+	<footer>
+		 UTT | BOUCQUEMONT Adam | MM01 | A20
+	</footer>
+
+</body>
+
+</html>

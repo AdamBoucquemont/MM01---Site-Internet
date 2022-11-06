@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<!--Titre de la page-->
+	<title> Le Quizz </title>
+	<!--Instauration du favicon-->
+	<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+	<!--Mise en place des 4 balises Meta-->
+	<meta charset="utf-8">
+	<meta name="author" content="Adam BOUCQUEMONT" />
+	<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+	<meta name="description"
+	  content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+	  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+	<!--Accés à la feuille de style-->
+	<link rel="stylesheet" href="../style/style.css">
+	<!--Lien donnant accées au différens effet du site-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<!--définition du header-->
+	<header>
+		<div class="header"></div>
+		<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+
+	<!--corps du document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--titre-->
+				<h1> Maintenant, faisont un petit quizz pour voir si vous avez bien suivi ! </h1>
+
+				<br><br>
+
+
+				<!--début du quizz-->
+				<form id="quizz">
+
+					<!--Question 1-->
+
+					<div class="titre_q">
+						<h3>Comment s’appelle le père de D'Jok</h3>
+					</div><br>
+
+					<label for="rep1a" class="question">
+						<input type="radio" name="q1" value="1" id="rep1a">
+						<span class="check"></span> Sonny Blackbones
+					</label><br>
+
+					<label for="rep1b" class="question">
+						<input type="radio" name="q1" value="0" id="rep1b">
+						<span class="check"></span> Clamp
+					</label><br>
+
+					<label for="rep1c" class="question">
+						<input type="radio" name="q1" value="0" id="rep1c">
+						<span class="check"></span> Aarch
+					</label><br>
+
+					<label for="rep1d" class="question">
+						<input type="radio" name="q1" value="0" id="rep1d">
+						<span class="check"></span> Rocket
+					</label><br>
+
+					<br><br>
+
+					<div class="container_image2">
+						<img src="../img/famille.jpg" alt="La famille de D'Jok" width="40%">
+					</div>
+					<br>
+
+
+					<!--Question 2-->
+
+					<div class="titre_q">
+						<h3> Quel est le positionnement de D'Jok sur le terrain ? </h3>
+					</div><br>
+
+					<label for="rep2a" class="question">
+						<input type="radio" name="q2" value="0" id="rep2a">
+						<span class="check"></span> Défenseur
+					</label><br>
+
+					<label for="rep2b" class="question">
+						<input type="radio" name="q2" value="0" id="rep2b">
+						<span class="check"></span> Gardien de but
+					</label><br>
+
+					<label for="rep2c" class="question">
+						<input type="radio" name="q2" value="1" id="rep2c">
+						<span class="check"></span> Attaquant
+					</label><br>
+
+					<label for="rep2d" class="question">
+						<input type="radio" name="q2" value="0" id="rep2d">
+						<span class="check"></span> Milieude terrain
+					</label><br>
+					<br><br>
+
+					<!--Question 3-->
+
+					<div class="titre_q">
+						<h3> Combien il y a de saisons de Galactik Football </h3>
+					</div><br>
+
+					<label for="rep3a" class="question">
+						<input type="radio" name="q3" value="0" id="rep3a">
+						<span class="check"></span> 4
+					</label><br>
+
+					<label for="rep3b" class="question">
+						<input type="radio" name="q3" value="1" id="rep3b">
+						<span class="check"></span> 3 mais une pétition est apparue pour une 4ème saison
+					</label><br>
+
+					<label for="rep3c" class="question">
+						<input type="radio" name="q3" value="0" id="rep3c">
+						<span class="check"></span> 3 mais une quatrième est en cours de tournage
+					</label><br>
+
+					<label for="rep3d" class="question">
+						<input type="radio" name="q3" value="0" id="rep3d">
+						<span class="check"></span> 1
+					</label><br>
+					<br><br>
+
+					<div class="container_image2">
+						<img src="../img/série.jpg" alt="La famille de D'Jok" width="40%">
+					</div>
+					<br>
+
+					<!--Question 4-->
+
+					<div class="titre_q">
+						<h3> Pendant quelle période la série a était diffusé ? </h3>
+					</div><br>
+
+
+					<label for="rep4a" class="question">
+						<input type="radio" name="q4" value="0" id="rep4a">
+						<span class="check"></span> Entre 2010 et 2015
+					</label><br>
+
+					<label for="rep4b" class="question">
+						<input type="radio" name="q4" value="1" id="rep4b">
+						<span class="check"></span> Entre 2006 et 2011
+					</label><br>
+
+					<label for="rep4c" class="question">
+						<input type="radio" name="q4" value="0" id="rep4c">
+						<span class="check"></span> Entre 2002 et 2005
+					</label><br>
+
+					<label for="rep4d" class="question">
+						<input type="radio" name="q4" value="0" id="rep4d">
+						<span class="check"></span> entre 2016 et 2020
+					</label><br>
+					<br><br>
+
+
+					<!--Question 5-->
+
+					<div class="titre_q">
+						<h3> Comment se nomment les principaux antagonistes ? </h3>
+					</div><br>
+
+					<label for="rep5a" class="question">
+						<input type="radio" name="q5" value="0" id="rep5a"><span class="check">
+						</span> Les Snowkids
+					</label><br>
+
+					<label for="rep5b" class="question">
+						<input type="radio" name="q5" value="0" id="rep5b"><span class="check">
+						</span> Les cyclopes
+					</label><br>
+
+					<label for="rep5c" class="question">
+						<input type="radio" name="q5" value="1" id="rep5c"><span class="check">
+						</span> Les Technoïd
+					</label><br>
+
+					<label for="rep5d" class="question">
+						<input type="radio" name="q5" value="0" id="rep5d"><span class="check">
+						</span> Les pirates
+					</label><br>
+					<br><br>
+
+
+					<div class="container_image2">
+						<img src="../img/Rocketfin.jpg" alt="Rocket" width="40%">
+					</div>
+					<br>
+
+					<!--Question 6-->
+
+
+					<div class="titre_q">
+						<h3> Comment se nomme l'entraineur des Snowkids pendant les deux premières saisons qui
+							deviendras ensuite coach ? </h3>
+					</div><br>
+
+					<label for="rep6a" class="question">
+						<input type="radio" name="q6" value="0" id="rep6a">
+						<span class="check"></span> D'Jok
+					</label><br>
+
+					<label for="rep6b" class="question">
+						<input type="radio" name="q6" value="0" id="rep6b">
+						<span class="check"></span> Tia
+					</label><br>
+
+					<label for="rep6c" class="question">
+						<input type="radio" name="q6" value="0" id="rep6c">
+						<span class="check"></span>Mei
+					</label><br>
+
+					<label for="rep6d" class="question">
+						<input type="radio" name="q6" value="1" id="rep6d">
+						<span class="check"></span> Rocket
+					</label><br>
+					<br><br>
+
+					<div class="verif">
+						<input type="button" value="Vérifier" class="bouton" onClick="getScore(this.form)">
+
+						<br><br><br>
+
+						<!--affiche le score-->
+
+						<div class="titre_q">
+							<h3> Votre Score:</h3>
+						</div>
+						<br>
+
+
+						<!--cadre pour le score-->
+						<input
+							style="width:10em; background-color: red; height: 4em; color: white; text-align: center; border: blue 0.2em dashed ; font-size: 1.2em"
+							type="text" size="15" name="percentage" readonly><br>
+					</div>
+					<p id="grade2"></p>
+					<br>
+
+
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<!--calcul du score-->
+	<script >
+
+		var numQues = 6;
+		var numChoi = 4;
+
+		var answers = new Array(6);
+		answers[0] = "Sonny Blackbones";
+		answers[1] = "Attaquant";
+		answers[2] = "3 mais une pétition est apparue pour une 4ème saison";
+		answers[3] = "Entre 2006 et 2011";
+		answers[4] = "Les Technoïd";
+		answers[5] = "Rocket";
+
+
+		function getScore(form) {
+			var score = 0;
+			var currElt;
+			var currSelection;
+
+			for (i = 0; i < numQues; i++) {
+				currElt = i * numChoi;
+				for (j = 0; j < numChoi; j++) {
+					currSelection = form.elements[currElt + j];
+					if (currSelection.checked) {
+						if (currSelection.value == "1") {
+							score++;
+
+							break;
+						}
+					}
+				}
+			}
+
+			score = Math.round(score / numQues * 6);
+			form.percentage.value = score + " / 6";
+
+			var correctAnswers = "";
+			for (i = 1; i <= numQues; i++) {
+				correctAnswers += i + ". " + answers[i - 1] + "\r\n";
+
+			}
+
+		}
+	</script>
+
+<!--commentaire associé au résultat-->
+<script >
+	document.getElementById("form1").onsubmit = function () {
+	  q1 = parseInt(document.querySelector('input[name = "q1"]:checked').value);
+	  q2 = parseInt(document.querySelector('input[name = "q2"]:checked').value);
+	  q3 = parseInt(document.querySelector('input[name = "q3"]:checked').value);
+	  q4 = parseInt(document.querySelector('input[name = "q4"]:checked').value);
+	  q5 = parseInt(document.querySelector('input[name = "q5"]:checked').value);
+	  q6 = parseInt(document.querySelector('input[name = "q6"]:checked').value);
+
+
+	  result = q1 + q2+ q3 + q4 + q5 + q6;
+
+	  document.getElementById("grade").innerHTML = result;
+
+
+	  if (result == 0) { result2 = "Fais un effort !" };
+	  if (result == 1) { result2 = "C'est pas très glorieux tout ça !" };
+	  if (result == 2) { result2 = "Presque la moyenne, mais c'est pas encore ça..." };
+	  if (result == 3) { result2 = "Tout juste la moyenne !" };
+	  if (result == 4) { result2 = "Tu peux mieux faire !" };
+	  if (result == 5) { result2 = "Tu y es presque !" };
+	  if (result == 6) { result2 = "Bravo !" };
+	  document.getElementById("grade2").innerHTML = result2;
+
+	  return false; // required to not refresh the page; just leave this here
+	} //this ends the submit function
+
+  </script>
+
+
+<!--pied de page-->
+	<footer>
+		UTT | BOUCQUEMONT Adam | MM01 | A20 
+	</footer>
+
+</body>
+
+</html>

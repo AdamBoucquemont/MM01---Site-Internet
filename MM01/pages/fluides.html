@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<!--Titre de la page-->
+	<title> Les fluides </title>
+	<!--Instauration du favicon-->
+	<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+	<!--Mise en place des 4 balises Meta-->
+	<meta charset="utf-8">
+	<meta name="author" content="Adam BOUCQUEMONT" />
+	<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+	<meta name="description" content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+	  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+	<!--Accés à la feuille de style-->
+	<link rel="stylesheet" href="../style/style.css">
+	<!--Lien donnant accées au différens effet du site-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<!--header du document-->
+	<header>
+		<div class="header"></div>
+		<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+	<!--corps du document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--présentation des fluides-->
+				<h1> Les fluides </h1>
+				<br>
+				<p> Les fluides sont des pouvoirs mystiques utilisés par les joueurs de Galactik Football. Ils sont
+					différents et varient d'une planéte à l'autre, ils se divisent en trois
+					catégories, la premiére contient les fluides les plus "faibles", n'ayant pas de capacité spéciale
+					(comme le Souffle). La seconde catégorie contient des fluides ayant une
+					capacité spéciale relativement faible (le Cri de Métal des Rykers en fait partie), la troisième
+					contient des fluides plus puissants (l'exemple le plus connu est le smog des
+					Shadows) </p>
+
+					<!--vidéo du fluide-->
+				<h2> Vidéo d'utilisation du fluide </h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/yU2hIe4mHHk" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				<br>
+
+				<!--présentation des 5 fluides les plus connues, a chaque fois il y a une description plus une photo -->
+				<div class="container_personnages">
+
+					<!--Le souffle d'Akilian-->
+					<h2> Le souffle d'Akilian </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Le souffle est un fluide de première catégorie, il est actuellement utilisé par l'équipe
+								des
+								Snow Kids et par les Tigres Rouges, il est spécifique à la planète Akilian,
+								il se manifeste par des traînées bleues autour et derrière le joueur. Lors de la Grande
+								Glaciation d'Akilian, ce fluide disparaît pendant plus de quinze ans, avant de
+								réapparaître grâce au metafluide. Ce fluide permet une plus grande force de frappe,
+								donne une
+								très grande énergie aux joueurs, et peut éventuellement servir à d'autres
+								fonctions (comme la création d'un bouclier). </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/souffle d'akilian.jpg" alt="Souffle d'Akilian" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<!--le smog-->
+					<h2> Le smog </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Le Smog est un fluide de troisième catégorie, spécifique à l'archipel Shadows, il est
+								maîtrisée
+								par l'équipe des Shadows, il permet une augmentation de la force,
+								mais aussi la téléportation, il se caractérise par des traînées ressemblant à de la boue
+								noire.
+								Il est dangereux pour les créatures non-shadows (ce phénoméne est
+								seulement montré sur des humains), on l'apprend au cours du troisième épisode de la
+								première
+								saison, où Aarch relate ses souvenirs, plus tard, au cours de la saison 3,
+								lorsque Mei s'entraîne pour maîtriser le Smog, elle en ressent une très grande fatigue
+								et décide
+								donc d'arrêter de faire de telles tentatives. Les deux êtres humains
+								maîtrisant le Smog sans en ressentir les effets négatifs sont Artegor Nexus, et Sinnedd
+								(bien
+								que ce dernier ait quand même eu, au début, des effets négatifs, ils se
+								sont rapidement dissipés). Ce fluide a temporairement disparu au courant de la saison 2,
+								par la
+								cause d'une capsule de fluide envoyée par le général Bleylock. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Smog.jpg" alt="Le smog" width="100%">
+						</div>
+					</div>>
+
+					<br>
+					<!--la fournaise de Xénon-->
+					<h2> La fournaise de Xénon </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> La fournaise est un fluide de troisième catégorie,il est dit que dans la saison 2 que ce
+								fluide
+								était le plus puissant de la Cup, il est spécifique à l'Archipel
+								Xenon, il est utilisé par l'équipe des Xenons, il se caractérise par des traînées vertes
+								(cependant ressemblant plus à un liquide qu'à un gaz), il permet une
+								augmentation des capacités physiques , et de procurer à l'utilisateur une vitesse inouïe
+								.Il
+								permet aussi, lors de son usage, de bloquer l'adversaire en le recouvrant
+								d'une substance visqueuse extrêment dure, (la seule façon de la repousser est de
+								projeter son
+								fluide au moment de l'attaque) on ne connaît aucune créature autre qu'un
+								Xenon capable d'utiliser correctement ce fluide. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Fournaise de Xénon.jpg" alt="La fournaise Xénon" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<!--L'esprit d'Ibo-->
+					<h2> L'esprit d'Ibo </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Ce fluide est, à l'instar du Souffle, un fluide de première catégorie, il est utilisé
+								par les
+								Wambas, il leur est procuré par la lune d'Ibo il se caractérise par des
+								traînées orangées et un rugissement de lion, il offre aux Wambasune agilité hors du
+								commun, on
+								ne connaît aucune créature non-Wamba maîtrisant correctement ce fluide. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Esprit d'ibo.jpg" alt="Esprit d'Ibo" width="100%">
+						</div>
+					</div>
+
+
+					<br>
+					<!-- le cris de métal-->
+					<h2> le Cri de Métal </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Le Cri de Métal est un fluide de seconde catégorie, il appartient à la planète Unadar,
+								et est
+								utilisé par l'équipe des Rykers, Les joueuses crient en libérant des
+								ondes électriques puissantes paralysant entièrement l'adversaire.Les seules et uniques
+								créatures
+								maîtrisant ce fluide sont les Rykers, à ce jour, aucune autre créature
+								n'est parvenue à maîtriser ce fluide </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Cris de métal.jpg" alt="le Cri de Métal" width="100%">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--pied de page-->
+	<footer>
+		 UTT | BOUCQUEMONT Adam | MM01 | A20 
+	</footer>
+
+</body>
+
+</html>

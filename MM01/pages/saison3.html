@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+		<!--Titre de la page-->
+		<title> Saison 3 </title>
+		<!--Instauration du favicon-->
+		<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+		<!--Mise en place des 4 balises Meta-->
+		<meta charset="utf-8">
+		<meta name="author" content="Adam BOUCQUEMONT" />
+		<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+		<meta name="description"
+		  content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+		  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+		<!--Accés à la feuille de style-->
+		<link rel="stylesheet" href="../style/style.css">
+		<!--Lien donnant accées au différens effet du site-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!--en tête du document-->
+	<header>
+		<div class="header"></div>
+			<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+
+<!--corps ud document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--titre et image-->
+				<h1> Saison 3 de Galactik Football </h1>
+
+				<br>
+
+				<img src="../img/Saison 3.jpg" alt="Poster de la saison 3" width="40%">
+				<br>
+				<!--Son du générique-->
+				<h2> Ecouter le générique de la saison 3 </h2>
+				<br>
+				<audio src="../son/Galactik Football Générique Saison 3 YouTube.mp3" controls></audio>
+
+				<br><br>
+
+				<!--alternance de lignes composés de'une image et d'un résumé-->
+				<div class="container_ligne">
+					<div class="container_image">
+						<p> Un an après la seconde victoire des Snow Kids, le mystérieux Lord Phoenix invite tous les joueurs de la galaxie à un tournoi spécial mixte sur la planète Paradisia. 
+							Après un mauvais match amical contre les Shadows, D'Jok et Mei se disputent et Mei quitte D'Jok pour rejoindre les Shadows. Yuki se sépare temporairement des Snow Kids 
+							pour rejoindre les Elektras. D'Jok part également de l'équipe après avoir été recruté par l'équipe de Lord Phoenix, la Team Paradisia. Un Wamba, nommé Lun-Zia, se joint 
+							alors aux Snow Kids pour le tournoi mixte. </p>
+					</div>
+
+					<div class="container_texte">
+						<img src="../img/Saison3_image2.jpg" alt="équipe des snow kids" width="100%">
+					</div>
+				</div>
+
+				<div class="container_ligne">
+					<div class="container_texte">
+						<p> En raison de l'injection de flux dans le noyau de la planète Paradisia, cette dernière explose. La population est alors évacuée 
+							grâce à l'aide des joueurs de Galactik Football. Le responsable de cet attentat se révèle être Harris, l'ancien bras droit de Bleylock. Deux mois plus tard, la date de 
+							Galactik Football Cup est avancée sous la pression d'Harris qui menace de reproduire à d'autres planètes ce qui s'est passé sur Paradisia. D'Jok et Mei, quant à eux, 
+							reviennent chez les Snow Kids tandis que Yuki décide de rester chez les Elektras.</p>
+					</div>
+
+					<div class="container_image">
+						<img src="../img/Saison3_image1.jpg" alt="clone" width="100%">
+					</div>
+				</div>
+				
+				<div class="container_ligne">
+					<div class="container_image">
+						<p> De son côté, Aarch quitte son poste d'entraîneur après avoir vu sa relation amoureuse 
+							avec Adim exposée au grand public, Rocket est alors désigné nouvel entraîneur. Les Snow Kids gagnent finalement contre la Team Paradisia, ce qui leur permet de remporter 
+							pour la troisième fois de suite la coupe. De leur côté, les Pirates parviennent à mettre un terme aux plans de Harris. Quelque temps plus tard, les Snow Kids rendent visite 
+							aux Galactik Kids au Club Galactik pour une séance d'entraînement. Cependant, Mei et Micro-Ice disparaissent mystérieusement avec les Galactik Kids à la suite d'un 
+							dysfonctionnement de l'holotraîneur de Clamp. </p>
+					</div>
+
+					<div class="container_texte">
+						<img src="../img/Saison3_image3.jpg" alt="victoire" width="100%">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!--footer de la page-->
+	<footer>
+		 UTT | BOUCQUEMONT Adam | MM01 | A20 
+	</footer>
+
+</body>
+
+</html>

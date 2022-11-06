@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<!--Titre de la page-->
+	<title> Les Technoid </title>
+	<!--Instauration du favicon-->
+	<link rel="shortcut icon" type="image/png" href="../img/Favicon.png" />
+	<!--Mise en place des 4 balises Meta-->
+	<meta charset="utf-8">
+	<meta name="author" content="Adam BOUCQUEMONT" />
+	<meta name="keywords" content="Galactik Football, D'Jok, Rocket, Snowkids, Technoid">
+	<meta name="description" content="Ce site traite du dessin animé Galacyik Football. Il sert d'outils pédagogique dans le cadre 
+	  de l'UE MM01 à l'UTT au semestre A20 géré par M.Thorel.">
+	<!--Accés à la feuille de style-->
+	<link rel="stylesheet" href="../style/style.css">
+	<!--Lien donnant accées au différens effet du site-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<!--header du document-->
+	<header>
+		<div class="header"></div>
+		<img src="../img/Hauteur1.jpg" alt="En tête du site représentant la série Galactik Football">
+		</div>
+	</header>
+
+		<!--définition de la navigation-->
+		<div class="topnav" id="myTopnav">
+			<!--ouverture du logo à utiliser comme bouton pour retourner à l'accueil-->
+			<a class="first" href="../index.html"> <img src="../img/Logo.png" alt="Logo du dessin animé" width="30px"> </a>
+			<div class="dropdown">
+				<!--mise en place de la caractéristique dropdown-->
+				<button class="dropbtn"> Les saisons
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="saison1.html"> La saison 1 </a>
+					<a href="saison2.html"> La saison 2 </a>
+					<a href="saison3.html"> La saison 3 </a>
+					<a href="saison4.html"> La saison 4 </a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"> Les personnages principaux
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="snowkids.html"> Les Snowkids </a>
+					<a href="technoid.html"> Les Technoid</a>
+					<a href="personnages.html"> Les autres personnages importants </a>
+				</div>
+			</div>
+			<a class="toplink" href="fluides.html"> Les fluides </a>
+			<div class="dropdown">
+				<button class="dropbtn"> Autres
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="creation.html"> La création du dessin animé </a>
+					<a href="produits.html"> Les produits dérivés </a>
+				</div>
+			</div>
+			<a class="toplink" href="quizz.html" > Le Quizz </a>
+			<div class="dropdown">
+				<button class="dropbtn"> A propos
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="contact.html"> Les contacts </a>
+					<a href="credits.html"> Les crédits </a>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="deroul(); Bar(this)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	
+		
+		<!--script responsive-->
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	
+	<script> /* Code javascript pour le menu de navigation responsive */
+		function deroul() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		function Bar(x) {
+		  x.classList.toggle("change");
+		}
+	  </script>
+
+
+	<!--corps du document-->
+	<section id=container>
+		<div class="container">
+			<div class="container_resume">
+				<!--titre et explication-->
+				<h1> Technoid </h1>
+				<br>
+				<p> Équipe composée de robot ultra-perfectionnés qui sautent extrêmement haut, se déplacent dans toutes
+					les directions, et n'ont pas besoin de faire demi-tour car leurs
+					jambes pivotent indépendamment de leur buste. Ils s'adaptent au jeu de leur adversaire et ont en
+					mémoire des milliers de combinaisons de jeu possible. La Technoïd Inc.a
+					mené des recherches très poussées pour les doter d'un Fluide de synthèse </p>
+				<br>
+				<!--présentation des 3 membres avec le nom, une photo et une histoire-->
+				<div class="container_personnages">
+
+					<h2> Bleylock </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> TBleylock est un général de la Technoid et le principal antagoniste des deux premières
+								saisons de Galactik Football. Il a pour objectif de pourvoir la Technoid avec un
+								Fluide capable de battre les autres peuples de la Galaxie. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Bleylock.jpg" alt="Le méchant de l'histoire, Bleylock" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Baldwin </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_66">
+							<p> Baldwin était un scientifique et un agent technoïde travaillant sous le général
+								Bleylock. Il est antagoniste secondaire dans la saison 1. </p>
+						</div>
+
+						<div class="container_33">
+							<img src="../img/Baldwin.jpg" alt="Baldwin" width="100%">
+						</div>
+					</div>
+
+					<br>
+					<h2> Duke Maddox </h2>
+					<br>
+					<div class="container_ligne">
+						<div class="container_662">
+							<p> Duke Maddox a un physique imposant et des vêtements élégants, portant souvent des
+								médailles sur la poitrine. Il est chauve et a une longue barbe blanche et sur son œil
+								gauche, il porte une lunette. </p>
+						</div>
+
+						<div class="container_332">
+							<img src="../img/Duke_Maddox.jpg" alt="Duke Maddox" width="100%">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--pied de page-->
+	<footer>
+		UTT | BOUCQUEMONT Adam | MM01 | A20
+	</footer>
+
+</body>
+
+</html>
